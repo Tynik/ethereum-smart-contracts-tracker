@@ -4,10 +4,11 @@
   "main": "public/index.html",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "start": "LOCAL_ENV=true NETLIFY_SERVER=http://localhost:9993 NODE_ENV=development webpack serve",
+    "start": "LOCAL_ENV=true NODE_ENV=development webpack serve",
     "lint": "eslint ./src"
   },
   "devDependencies": {
+    "@types/node": "18.8.5",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.40.0",
@@ -36,6 +37,8 @@
     "@mui/icons-material": "5.10.9",
     "@mui/lab": "5.0.0-alpha.103",
     "@mui/material": "5.10.9",
+    "@tynik/react-honey-form": "0.0.7",
+    "alchemy-sdk": "2.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }

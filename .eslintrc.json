@@ -12,6 +12,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "@typescript-eslint/no-misused-promises": "off",
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
     "import/extensions": "off",
@@ -20,6 +21,8 @@
       {
         "namedComponents": "arrow-function"
       }
-    ]
+    ],
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off"
   }
 }
